@@ -1,0 +1,26 @@
+{
+  "name": "foundation-icon-fonts-3-glyphsearch-crawler",
+  "version": "0.1.0",
+  "description": "Crawls the Foundation Icon Fonts 3 website and formats it for GlyphSearch",
+  "main": "foundation.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/matiassingers/foundation-icon-fonts-3-glyphsearch-crawler"
+  },
+  "author": "Matias Singers <mail@matiassingers.com> (http://mts.io/)",
+  "keywords": [
+    "icons",
+    "glyphs",
+    "fonts",
+    "foundation",
+    "zurb"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/matiassingers/foundation-icon-fonts-3-glyphsearch-crawler/issues"
+  },
+  "homepage": "https://github.com/matiassingers/foundation-icon-fonts-3-glyphsearch-crawler"
+}
