@@ -5,7 +5,7 @@
   "main": "foundation.js",
   "scripts": {
     "foundation": "node index.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha"
   },
   "repository": {
     "type": "git",
@@ -28,5 +28,8 @@
     "promise-request": "0.0.1",
     "cheerio": "~0.17.0",
     "lodash": "~2.4.1"
+  },
+  "devDependencies": {
+    "mocha": "~1.21.4"
   }
 }
