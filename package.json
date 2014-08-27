@@ -4,6 +4,7 @@
   "description": "Crawls the Foundation Icon Fonts 3 website and formats it for GlyphSearch",
   "main": "foundation.js",
   "scripts": {
+    "foundation": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
