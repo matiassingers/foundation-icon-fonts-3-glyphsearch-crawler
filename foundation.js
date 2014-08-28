@@ -27,9 +27,17 @@ function handleItems(items){
   var icons = _.map(items, function(item){
     var element = $(item);
 
+    var keyword = element.data('dropdown');
+    var tags;
+
+    if(keyword === 'phone'){
+      keyword = 'telephone';
+      tags = 'phone'
+    }
+
     return {
-      name: element.data('dropdown'),
-      tags: element.data('dropdown')
+      name: keyword,
+      tags: tags
     };
   });
 
