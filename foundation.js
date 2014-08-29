@@ -35,6 +35,11 @@ function handleItems(items){
       tags = 'phone'
     }
 
+    if(keyword === 'social-xbox-20'){
+      keyword = 'social-xbox';
+      tags = 'brand, console, gaming'
+    }
+
     return {
       name: keyword,
       tags: tags
