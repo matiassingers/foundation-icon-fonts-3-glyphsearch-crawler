@@ -5,7 +5,9 @@ var cheerio = require('cheerio');
 var foundation = require('./foundation');
 
 describe('fetchWebpage()', function(){
-  this.timeout(0);
+  // until new release of mocha
+  // this.timeout(0);
+  this.enableTimeouts(false);
 
   var icons;
   before(function(done){
@@ -15,7 +17,6 @@ describe('fetchWebpage()', function(){
 
         done();
       });
-
   });
 
   it('should return array of icons', function(){
