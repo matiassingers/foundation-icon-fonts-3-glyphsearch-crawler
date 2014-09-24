@@ -1,4 +1,4 @@
-# foundation-icon-fonts-3-glyphsearch-crawler [![Build Status](https://api.shippable.com/projects/53fc36ec944d7f5808f6e110/badge/master)](https://www.shippable.com/projects/53fc36ec944d7f5808f6e110)
+# foundation-icon-fonts-3-glyphsearch-crawler [![Build Status](http://img.shields.io/travis/matiassingers/foundation-icon-fonts-3-glyphsearch-crawler.svg?style=flat-square)](https://travis-ci.org/matiassingers/foundation-icon-fonts-3-glyphsearch-crawler) [![Dependency Status](http://img.shields.io/gemnasium/matiassingers/foundation-icon-fonts-3-glyphsearch-crawler.svg?style=flat-square)](https://gemnasium.com/matiassingers/foundation-icon-fonts-3-glyphsearch-crawler)
 > Creates JSON file of all [Foundation Icons Font 3](http://zurb.com/playground/foundation-icon-fonts-3) for [GlyphSearch](http://glyphsearch.com/)
 
 Adapted version of [octicons-glyphsearch-crawler](https://github.com/matiassingers/octicons-glyphsearch-crawler).
