@@ -1,6 +1,6 @@
 {
   "name": "foundation-icon-fonts-3-glyphsearch-crawler",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Crawls the Foundation Icon Fonts 3 website and formats it for GlyphSearch",
   "main": "foundation.js",
   "scripts": {
