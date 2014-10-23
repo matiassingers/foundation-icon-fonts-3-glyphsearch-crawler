@@ -5,9 +5,7 @@ var cheerio = require('cheerio');
 var foundation = require('./foundation');
 
 describe('fetchWebpage()', function(){
-  // until new release of mocha
-  // this.timeout(0);
-  this.enableTimeouts(false);
+  this.timeout(0);
 
   var icons;
   before(function(done){
